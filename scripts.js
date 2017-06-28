@@ -6,8 +6,6 @@ function Phone(brand, price, color, availability) {
 	//by using this, the "brand" property of the object we create will assume the value of the brand argument
 	this.price = price;
 	this.color = color;
-	
-	// probowalam miec wydruk in the shop lub out of stock, ale nie wiem jak poprawnie zakodowac ten warunek!
 	this.availability = ava; 
 }
 Phone.prototype.printInfo = function() {
